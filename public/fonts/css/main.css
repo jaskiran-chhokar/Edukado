@@ -1,0 +1,35 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: 'Lora', serif; }
+
+p {
+  color: #333; }
+
+a:hover {
+  text-decoration: none; }
+
+.font-weight-700 {
+  font-weight: 700; }
+
+.background-primary {
+  background-color: #a10f2b !important; }
+
+.color-primary {
+  color: #a10f2b !important; }
+
+.primary-btn {
+  border: 2px solid #a10f2b;
+  border-radius: 30px;
+  padding: 0.8rem 1.5rem;
+  color: #a10f2b;
+  transition: 0.3s ease; }
+
+.primary-btn:hover {
+  background-color: #a10f2b;
+  color: white; }
+
+.header-title {
+  font-size: 68px; }
