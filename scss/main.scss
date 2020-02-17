@@ -93,6 +93,11 @@ a:hover {
     -moz-transform: rotate(180deg); 
 }
 
+.wave-1 {
+    position: relative; 
+    top: 0.4rem; 
+}
+
 .header-row {
     height: 100vh; 
 
@@ -149,7 +154,7 @@ a:hover {
 
 .services {
     position: relative;
-    top: -5px;
+    top: -6px;
     background: white;
 
     p {
@@ -208,6 +213,7 @@ a:hover {
 footer {
     .footer-contain {
         background-color: $colorlightblue;
+        margin-top: 0.05rem;
     }
     .copyright {
         font-size: 15px;

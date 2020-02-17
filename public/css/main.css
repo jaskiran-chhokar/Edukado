@@ -71,6 +71,10 @@ a:hover {
   -ms-transform: rotate(180deg);
   -moz-transform: rotate(180deg); }
 
+.wave-1 {
+  position: relative;
+  top: 0.4rem; }
+
 .header-row {
   height: 100vh; }
   .header-row .col-lg-5 {
@@ -110,7 +114,7 @@ a:hover {
 
 .services {
   position: relative;
-  top: -5px;
+  top: -6px;
   background: white; }
   .services p {
     line-height: 2; }
@@ -152,7 +156,8 @@ a:hover {
 
 /* footer */
 footer .footer-contain {
-  background-color: rgba(58, 55, 104, 0.1); }
+  background-color: rgba(58, 55, 104, 0.1);
+  margin-top: 0.05rem; }
 
 footer .copyright {
   font-size: 15px; }
