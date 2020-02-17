@@ -65,16 +65,17 @@ a:hover {
 }
 
 .header {
-    font-size: 48px;
+    font-size: 4.2rem;
 }
 
 .header-title {
-    font-size: 68px;
+    font-size: 4.7rem;
 }
 
 .header-subtitle {
+    line-height: 2; 
     border-left: 6px solid rgba(161, 15, 43, 0.2);
-    padding-left: 16px;
+    padding-left: 1rem;
 }
 
 #header-svg {
@@ -92,8 +93,20 @@ a:hover {
     -moz-transform: rotate(180deg); 
 }
 
+.header-row {
+    height: 100vh; 
+
+    .col-lg-5 {
+        margin-bottom: 5.5rem; 
+    }
+}
+
 #about {
     background: $colorlightblue;
+
+    .row {
+        padding: 5rem 0; 
+    }
 
     .col-lg-4 {
         position: absolute;
